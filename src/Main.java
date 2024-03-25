@@ -12,11 +12,8 @@ public class Main {
     }
 
     public static boolean method(int number,int number1) {
-        if(number==number1){
-            return true;
-        }else {
-            return false;
-        }
+
+        return number == number1;
 
 
     }
